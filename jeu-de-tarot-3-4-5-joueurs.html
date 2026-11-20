@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeu de tarot à 3, 4 ou 5 joueurs : distribution, roi appelé, points</title>
+<meta name="description" content="Jeu de tarot à 3, 4 ou 5 joueurs : nombre de cartes et de chien, poignées, appel du Roi à 5 et partage des points, avec exemples chiffrés.">
+<link rel="canonical" href="https://tarot-gothique-2026.fr/jeu-de-tarot-3-4-5-joueurs.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Jeu de tarot à 3, 4 ou 5 joueurs : distribution, roi appelé, points">
+<meta property="og:description" content="Jeu de tarot à 3, 4 ou 5 joueurs : nombre de cartes et de chien, poignées, appel du Roi à 5 et partage des points, avec exemples chiffrés.">
+<meta property="og:url" content="https://tarot-gothique-2026.fr/jeu-de-tarot-3-4-5-joueurs.html">
+<meta property="og:image" content="https://tarot-gothique-2026.fr/images/jeu-de-tarot-garde-a-cinq-joueurs.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+:root{--fond:#0e0b14;--carte:#1a1522;--bord:#3a2d46;--or:#d9b45a;--texte:#ece6f2;--doux:#b3a8bf;--lien:#f0cf7a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--texte);font:17px/1.65 Georgia,"Times New Roman",serif}
+a{color:var(--lien)}
+header.bandeau{position:relative;min-height:min(62vh,620px);display:flex;align-items:flex-end;background:#000}
+header.bandeau img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+header.bandeau .titre{position:relative;max-width:1000px;margin:0 auto;padding:32px 16px 40px;width:100%}
+h1{font-size:clamp(1.9rem,5vw,3rem);line-height:1.15;margin:0 0 .4em;color:var(--or)}
+.chapo{font-size:1.15rem;max-width:720px;margin:0 0 1.2em}
+.boutons{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:12px 18px;border-radius:6px;background:var(--or);color:#1a1208;text-decoration:none;font-weight:bold;font-family:system-ui,sans-serif}
+.btn.sec{background:transparent;color:var(--or);border:1px solid var(--or)}
+nav.menu{background:#130f1a;border-bottom:1px solid var(--bord);font-family:system-ui,sans-serif;font-size:.95rem}
+nav.menu ul{display:flex;flex-wrap:wrap;gap:4px 18px;list-style:none;margin:0 auto;padding:10px 16px;max-width:1000px}
+nav.menu a{text-decoration:none}
+main{max-width:1000px;margin:0 auto;padding:8px 16px 40px}
+h2{color:var(--or);font-size:1.6rem;margin:2em 0 .5em;line-height:1.25}
+h3{font-size:1.15rem;margin:0 0 .4em;color:var(--texte)}
+p,li{color:var(--texte)}
+.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;margin:1em 0}
+.carte{background:var(--carte);border:1px solid var(--bord);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.carte img{width:100%;height:auto;aspect-ratio:1024/460;object-fit:cover;display:block}
+.carte .corps{padding:14px 16px 16px}
+.carte p{margin:0;color:var(--doux);font-size:.97rem}
+figure{margin:1.4em 0}
+figure img{width:100%;height:auto;border-radius:10px;border:1px solid var(--bord)}
+figcaption{color:var(--doux);font-size:.9rem;margin-top:6px}
+table{width:100%;border-collapse:collapse;margin:1em 0;font-family:system-ui,sans-serif;font-size:.95rem}
+th,td{border:1px solid var(--bord);padding:8px 10px;text-align:left}
+th{background:var(--carte);color:var(--or)}
+.encadre{background:var(--carte);border-left:4px solid var(--or);padding:14px 18px;border-radius:6px;margin:1.4em 0}
+.plateformes .carte .corps{display:flex;flex-direction:column;gap:10px;height:100%}
+.plateformes .carte .btn{margin-top:auto;text-align:center}
+details{background:var(--carte);border:1px solid var(--bord);border-radius:8px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:bold}
+footer{border-top:1px solid var(--bord);color:var(--doux);font:14px/1.6 system-ui,sans-serif;text-align:center;padding:24px 16px}
+@media (max-width:600px){body{font-size:16px}header.bandeau{min-height:min(70vh,560px)}th,td{padding:6px}}
+.fil{font:14px system-ui,sans-serif;color:var(--doux);margin:14px 0 0}.fil a{text-decoration:none}
+header.bandeau.court{min-height:min(42vh,420px)}
+header.bandeau.court::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(14,11,20,.97) 15%,rgba(14,11,20,.55) 60%,rgba(14,11,20,.15))}header.bandeau.court .titre{z-index:1}
+</style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "Article", "headline": "Le jeu de tarot à 3, 4 ou 5 joueurs", "description": "Jeu de tarot à 3, 4 ou 5 joueurs : nombre de cartes et de chien, poignées, appel du Roi à 5 et partage des points, avec exemples chiffrés.", "inLanguage": "fr-FR", "url": "https://tarot-gothique-2026.fr/jeu-de-tarot-3-4-5-joueurs.html", "image": "https://tarot-gothique-2026.fr/images/jeu-de-tarot-garde-a-cinq-joueurs.webp", "dateModified": "2026-11-20", "datePublished": "2026-11-20", "author": {"@type": "Person", "name": "Cyril Darbost"}, "isPartOf": {"@id": "https://tarot-gothique-2026.fr/#site"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Jeu de tarot", "item": "https://tarot-gothique-2026.fr/"}, {"@type": "ListItem", "position": 2, "name": "Le jeu de tarot à 3, 4 ou 5 joueurs", "item": "https://tarot-gothique-2026.fr/jeu-de-tarot-3-4-5-joueurs.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Combien de cartes au jeu de tarot à 5 joueurs ?", "acceptedAnswer": {"@type": "Answer", "text": "15 cartes par joueur et 3 au chien."}}, {"@type": "Question", "name": "Combien de cartes au jeu de tarot à 3 joueurs ?", "acceptedAnswer": {"@type": "Answer", "text": "24 cartes par joueur et 6 au chien."}}, {"@type": "Question", "name": "Comment se partagent les points à 5 joueurs ?", "acceptedAnswer": {"@type": "Answer", "text": "Le preneur prend deux parts, son partenaire une, chaque défenseur paie une part. Seul, le preneur prend quatre parts."}}]}]}
+</script>
+</head>
+<body>
+<header class="bandeau court">
+<img src="images/jeu-de-tarot-garde-a-cinq-joueurs.webp" width="1024" height="460" alt="Jeu de tarot à cinq joueurs : table gothique pendant l&#x27;appel du Roi" fetchpriority="high">
+<div class="titre">
+<p class="fil"><a href="./">Jeu de tarot</a> › Guides</p>
+<h1>Le jeu de tarot à 3, 4 ou 5 joueurs</h1>
+<p class="chapo">Mêmes cartes, mêmes contrats, mais une table qui change tout : distribution, poignées et alliances s'adaptent au nombre de joueurs.</p>
+</div>
+</header>
+
+<nav class="menu" aria-label="Guides">
+<ul>
+<li><a href="./">Accueil</a></li>
+<li><a href="jeu-de-tarot-bouts.html">Les Bouts</a></li><li><a href="jeu-de-tarot-excuse.html">L&#x27;Excuse</a></li><li><a href="jeu-de-tarot-contrats.html">Les contrats</a></li><li><a href="jeu-de-tarot-3-4-5-joueurs.html">À 3, 4 ou 5 joueurs</a></li>
+<li><a href="./#telecharger">Télécharger</a></li>
+</ul>
+</nav>
+
+<main>
+<section id="distribution">
+<h2>La distribution du jeu de tarot selon la table</h2>
+<p>Le jeu de tarot se distribue par paquets de 3 cartes, en commençant par le joueur qui suit le donneur. Les cartes du chien sont posées une à une au fil de la donne. Le nombre de cartes dépend du nombre de joueurs :</p>
+<table>
+<thead><tr><th>Joueurs</th><th>Cartes par joueur</th><th>Chien</th><th>Écart du preneur</th></tr></thead>
+<tbody>
+<tr><td>3</td><td>24</td><td>6</td><td>6</td></tr>
+<tr><td>4</td><td>18</td><td>6</td><td>6</td></tr>
+<tr><td>5</td><td>15</td><td>3</td><td>3</td></tr>
+</tbody>
+</table>
+<p>Quel que soit le format, les seuils de points (56, 51, 41, 36 selon les Bouts), les <a href="jeu-de-tarot-contrats.html">contrats</a> et leur multiplicateur restent identiques.</p>
+</section>
+
+<section id="quatre">
+<h2>Le jeu de tarot à 4 joueurs : la référence</h2>
+<p>À 4, le preneur affronte seul trois défenseurs. Chaque défenseur paie la valeur de la donne, le preneur encaisse donc trois fois cette valeur. C'est la formule la plus équilibrée du jeu de tarot : assez de cartes en main pour construire un jeu, assez de joueurs pour que la défense s'organise.</p>
+<p>Les poignées s'annoncent à partir de 10 atouts (simple), 13 (double) et 15 (triple), Excuse comprise.</p>
+</section>
+
+<section id="trois">
+<h2>Le jeu de tarot à 3 joueurs</h2>
+<p>Avec 24 cartes chacun, les mains sont longues et les atouts nombreux. Les poignées demandent donc plus : 13 atouts pour une simple, 15 pour une double, 18 pour une triple. Le preneur joue contre deux défenseurs et encaisse deux fois la valeur de la donne.</p>
+<p>À 3, chaque pli contient peu de cartes et la défense n'a qu'un partenaire : couper au bon moment compte encore plus. C'est un bon format pour apprendre le jeu de tarot, parce qu'on voit beaucoup de cartes passer à chaque donne.</p>
+</section>
+
+<section id="cinq">
+<h2>Le jeu de tarot à 5 joueurs et l'appel du Roi</h2>
+<p>À 5, le preneur ne joue pas seul. Après les enchères, il appelle un Roi, par exemple le Roi de cœur. Le joueur qui détient ce Roi devient son partenaire secret. Personne ne sait qui c'est, pas même le preneur, jusqu'à ce que le Roi appelé soit joué.</p>
+<ul>
+<li>Si le Roi appelé est dans le chien, le preneur joue seul contre quatre.</li>
+<li>Le preneur peut appeler un Roi qu'il a lui-même en main : il joue alors seul, c'est une stratégie réservée aux mains très fortes.</li>
+<li>Les poignées s'annoncent dès 8 atouts (simple), 10 (double) et 13 (triple).</li>
+</ul>
+<div class="encadre"><p><strong>Règle maison de Tarot Gothique.</strong> Au premier pli, on ne peut pas jouer la couleur du Roi appelé, sauf si celui qui entame pose directement ce Roi. Cela évite qu'un partenaire se dévoile dès la première carte et garde le suspense de l'appel.</p></div>
+<h3>Le partage des points à 5</h3>
+<p>Le preneur reçoit deux parts, son partenaire une part, et chacun des trois défenseurs paie une part. Exemple : Garde, deux Bouts dans le camp de l'attaque, 50 points réalisés pour 41 demandés. La donne vaut (25 + 9) × 2 = 68 points. Le preneur gagne 136, son partenaire 68, et chaque défenseur perd 68. Le total fait bien zéro.</p>
+<p>Quand le preneur joue seul, il encaisse ou paie quatre parts : sur la même donne, ce serait 272 points.</p>
+</section>
+
+<section id="ia">
+<h2>Toujours une table complète</h2>
+<p>Dans Tarot Gothique, l'IA complète les places vides : vous pouvez lancer un jeu de tarot à 5 seul face à quatre adversaires artificiels, ou à 3 avec un ami. En salon privé, un code suffit pour réunir vos amis à la même table, sur navigateur, Android, Linux ou Windows.</p>
+</section>
+
+<section id="jouer" class="plateformes">
+<h2>Mettre ce guide du jeu de tarot en pratique</h2>
+<p>Le plus simple pour retenir une règle du jeu de tarot, c'est de la voir jouée. Tarot Gothique 2026 applique exactement les règles décrites ici, contre l'IA ou entre amis.</p>
+<div class="grille">
+<article class="carte"><div class="corps"><h3>Navigateur</h3><p>Gratuit, sans téléchargement.</p><a class="btn" href="https://tarot-gothique-2026.com/jouer/">Jouer en ligne</a></div></article>
+<article class="carte"><div class="corps"><h3>Android</h3><p>Sur Google Play, sortie publique en cours de validation.</p><a class="btn" href="https://play.google.com/store/apps/details?id=com.clea.tarot">Google Play</a></div></article>
+<article class="carte"><div class="corps"><h3>Linux</h3><p>Archive gratuite, prête à lancer.</p><a class="btn" href="https://tarot-gothique-2026.com/linux.html">Télécharger</a></div></article>
+<article class="carte"><div class="corps"><h3>Windows</h3><p>9,90 € en paiement unique, 100 000 jetons inclus.</p><a class="btn" href="https://tarot-gothique-2026.com/windows.html">Édition Windows</a></div></article>
+</div>
+<div class="encadre"><p>Une question sur une règle ? Posez-la sur notre <a href="https://discord.gg/PAgE8Y3MSN">serveur Discord</a> : tournois, nouveautés et bonus y sont annoncés en premier.</p></div>
+</section>
+
+<section id="faq">
+<h2>Questions fréquentes</h2>
+<details><summary>Combien de cartes au jeu de tarot à 5 joueurs ?</summary><p>15 cartes par joueur et 3 au chien.</p></details><details><summary>Combien de cartes au jeu de tarot à 3 joueurs ?</summary><p>24 cartes par joueur et 6 au chien.</p></details><details><summary>Comment se partagent les points à 5 joueurs ?</summary><p>Le preneur prend deux parts, son partenaire une, chaque défenseur paie une part. Seul, le preneur prend quatre parts.</p></details>
+</section>
+
+<section id="autres-guides">
+<h2>Les autres guides du jeu de tarot</h2>
+<div class="grille"><article class="carte"><div class="corps"><h3><a href="jeu-de-tarot-bouts.html">Les Bouts</a></h3></div></article><article class="carte"><div class="corps"><h3><a href="jeu-de-tarot-excuse.html">L&#x27;Excuse</a></h3></div></article><article class="carte"><div class="corps"><h3><a href="jeu-de-tarot-contrats.html">Les contrats</a></h3></div></article></div>
+</section>
+</main>
+
+<footer>
+<p>© 2026 Tarot Gothique (Cyril Darbost) · <a href="./">Jeu de tarot</a> · <a href="https://tarot-gothique-2026.com/">Site principal</a> · <a href="https://tarot-gothique-2026.com/privacy.html">Confidentialité</a> · <a href="https://discord.gg/PAgE8Y3MSN">Discord</a></p>
+</footer>
+</body>
+</html>
