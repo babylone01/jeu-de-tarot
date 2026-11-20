@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jeu de tarot gratuit en ligne : règles, cartes et application</title>
+<meta name="description" content="Jeu de tarot gratuit à 3, 4 ou 5 joueurs : règles expliquées, valeur des cartes, contrats et calcul des points. Jouez en ligne, sur mobile, Linux ou Windows.">
+<link rel="canonical" href="https://tarot-gothique-2026.fr/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Jeu de tarot gratuit en ligne : règles, cartes et application">
+<meta property="og:description" content="Le jeu de tarot à 3, 4 ou 5 joueurs expliqué simplement, et jouable gratuitement dans le navigateur, sur mobile, Linux et Windows.">
+<meta property="og:url" content="https://tarot-gothique-2026.fr/">
+<meta property="og:image" content="https://tarot-gothique-2026.fr/images/jeu-de-tarot-faucheuse-table-gothique.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" as="image" href="images/jeu-de-tarot-faucheuse-table-gothique.webp" fetchpriority="high">
+<style>
+:root{--fond:#0e0b14;--carte:#1a1522;--bord:#3a2d46;--or:#d9b45a;--texte:#ece6f2;--doux:#b3a8bf;--lien:#f0cf7a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--texte);font:17px/1.65 Georgia,"Times New Roman",serif}
+a{color:var(--lien)}
+header.bandeau{position:relative;min-height:min(62vh,620px);display:flex;align-items:flex-end;background:#000}
+header.bandeau img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+header.bandeau .titre{position:relative;max-width:1000px;margin:0 auto;padding:32px 16px 40px;width:100%}
+h1{font-size:clamp(1.9rem,5vw,3rem);line-height:1.15;margin:0 0 .4em;color:var(--or)}
+.chapo{font-size:1.15rem;max-width:720px;margin:0 0 1.2em}
+.boutons{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:12px 18px;border-radius:6px;background:var(--or);color:#1a1208;text-decoration:none;font-weight:bold;font-family:system-ui,sans-serif}
+.btn.sec{background:transparent;color:var(--or);border:1px solid var(--or)}
+nav.menu{background:#130f1a;border-bottom:1px solid var(--bord);font-family:system-ui,sans-serif;font-size:.95rem}
+nav.menu ul{display:flex;flex-wrap:wrap;gap:4px 18px;list-style:none;margin:0 auto;padding:10px 16px;max-width:1000px}
+nav.menu a{text-decoration:none}
+main{max-width:1000px;margin:0 auto;padding:8px 16px 40px}
+h2{color:var(--or);font-size:1.6rem;margin:2em 0 .5em;line-height:1.25}
+h3{font-size:1.15rem;margin:0 0 .4em;color:var(--texte)}
+p,li{color:var(--texte)}
+.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;margin:1em 0}
+.carte{background:var(--carte);border:1px solid var(--bord);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.carte img{width:100%;height:auto;aspect-ratio:1024/460;object-fit:cover;display:block}
+.carte .corps{padding:14px 16px 16px}
+.carte p{margin:0;color:var(--doux);font-size:.97rem}
+figure{margin:1.4em 0}
+figure img{width:100%;height:auto;border-radius:10px;border:1px solid var(--bord)}
+figcaption{color:var(--doux);font-size:.9rem;margin-top:6px}
+table{width:100%;border-collapse:collapse;margin:1em 0;font-family:system-ui,sans-serif;font-size:.95rem}
+th,td{border:1px solid var(--bord);padding:8px 10px;text-align:left}
+th{background:var(--carte);color:var(--or)}
+.encadre{background:var(--carte);border-left:4px solid var(--or);padding:14px 18px;border-radius:6px;margin:1.4em 0}
+.plateformes .carte .corps{display:flex;flex-direction:column;gap:10px;height:100%}
+.plateformes .carte .btn{margin-top:auto;text-align:center}
+details{background:var(--carte);border:1px solid var(--bord);border-radius:8px;padding:12px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:bold}
+footer{border-top:1px solid var(--bord);color:var(--doux);font:14px/1.6 system-ui,sans-serif;text-align:center;padding:24px 16px}
+@media (max-width:600px){body{font-size:16px}header.bandeau{min-height:min(70vh,560px)}th,td{padding:6px}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://tarot-gothique-2026.fr/#site","url":"https://tarot-gothique-2026.fr/","name":"Jeu de tarot","inLanguage":"fr-FR"},
+{"@type":"WebPage","@id":"https://tarot-gothique-2026.fr/#page","url":"https://tarot-gothique-2026.fr/","name":"Jeu de tarot gratuit en ligne : règles, cartes et application","isPartOf":{"@id":"https://tarot-gothique-2026.fr/#site"},"inLanguage":"fr-FR","dateModified":"2026-11-20"},
+{"@type":"VideoGame","name":"Tarot Gothique 2026","url":"https://tarot-gothique-2026.fr/","genre":"Jeu de cartes","gamePlatform":["Navigateur web","Android","Linux","Windows"],"numberOfPlayers":{"@type":"QuantitativeValue","minValue":3,"maxValue":5},"inLanguage":"fr","image":"https://tarot-gothique-2026.fr/images/jeu-de-tarot-faucheuse-table-gothique.webp","sameAs":["https://tarot-gothique-2026.com/","https://discord.gg/PAgE8Y3MSN"]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Le jeu de tarot est-il gratuit ?","acceptedAnswer":{"@type":"Answer","text":"Oui. La version navigateur et la version Linux sont gratuites. L'édition Windows coûte 9,90 € en paiement unique."}},
+{"@type":"Question","name":"Combien de joueurs faut-il pour un jeu de tarot ?","acceptedAnswer":{"@type":"Answer","text":"Une partie se joue à 3, 4 ou 5 joueurs. Si vous êtes moins nombreux, l'IA complète la table."}},
+{"@type":"Question","name":"Combien de points faut-il pour gagner au tarot ?","acceptedAnswer":{"@type":"Answer","text":"Le preneur doit réunir 56 points sans Bout, 51 avec un Bout, 41 avec deux Bouts et 36 avec les trois Bouts."}},
+{"@type":"Question","name":"Peut-on jouer au tarot entre amis à distance ?","acceptedAnswer":{"@type":"Answer","text":"Oui : un salon privé permet de créer une table et d'y inviter ses amis avec un code."}}
+]}
+]}
+</script>
+</head>
+<body>
+<header class="bandeau">
+<img src="images/jeu-de-tarot-faucheuse-table-gothique.webp" width="1920" height="1080" alt="Jeu de tarot : cartes de tarot étalées sur une table gothique, sous le regard de la Faucheuse">
+<div class="titre">
+<h1>Jeu de tarot : apprendre, jouer et progresser</h1>
+<p class="chapo">Le jeu de tarot français à 3, 4 ou 5 joueurs, expliqué pas à pas et jouable gratuitement : dans votre navigateur, sur mobile, sur Linux ou sur Windows.</p>
+<div class="boutons">
+<a class="btn" href="https://tarot-gothique-2026.com/jouer/">Jouer gratuitement</a>
+<a class="btn sec" href="#regles">Lire les règles</a>
+</div>
+</div>
+</header>
+
+<nav class="menu" aria-label="Sommaire">
+<ul>
+<li><a href="#decouvrir">Découvrir</a></li>
+<li><a href="#regles">Règles</a></li>
+<li><a href="#cartes">Cartes</a></li>
+<li><a href="#contrats">Contrats</a></li>
+<li><a href="#points">Points</a></li>
+<li><a href="#telecharger">Télécharger</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+</nav>
+
+<main>
+<section id="decouvrir">
+<h2>Le jeu de tarot, un classique français toujours vivant</h2>
+<p>Le jeu de tarot est l'un des jeux de cartes les plus pratiqués en France. On le joue en famille, au club, au café, et de plus en plus sur écran. Le charme du jeu de tarot tient à un mélange rare : la chance de la donne compte, mais la réflexion compte davantage. Chaque partie de jeu de tarot demande de lire le jeu des autres, de compter les atouts tombés et de choisir le bon moment pour prendre un risque.</p>
+<p>Ce site rassemble l'essentiel pour bien démarrer : les règles du jeu de tarot, la valeur des cartes, les contrats, le calcul des points et les conseils qui font progresser. Il présente aussi Tarot Gothique 2026, un jeu de tarot gratuit dans une ambiance sombre et soignée, que vous pouvez lancer tout de suite pour mettre la théorie en pratique. Que vous découvriez le jeu de tarot ou que vous y jouiez depuis des années, vous y trouverez de quoi affiner votre jeu.</p>
+
+<div class="grille">
+<article class="carte">
+<img src="images/jeu-de-tarot-plis-et-atouts.webp" width="1024" height="460" loading="lazy" alt="Jeu de tarot - règles : un pli d'atouts posé au centre de la table">
+<div class="corps"><h3>Jeu de tarot - règles</h3><p>Distribution, enchères, chien, écart et jeu de la carte : le déroulement complet d'une donne, sans jargon inutile.</p></div>
+</article>
+<article class="carte">
+<img src="images/jeu-de-tarot-gothique-carte-faucheuse.webp" width="1024" height="460" loading="lazy" alt="Jeu de tarot - cartes : la Faucheuse tenant des cartes de tarot">
+<div class="corps"><h3>Jeu de tarot - cartes</h3><p>Les 78 cartes, les trois Bouts, les figures et leur valeur au moment de compter les plis.</p></div>
+</article>
+<article class="carte">
+<img src="images/jeu-de-tarot-en-ligne-garde-sans.webp" width="1600" height="720" loading="lazy" alt="Jeu de tarot - contrats : une Garde sans en cours de partie">
+<div class="corps"><h3>Jeu de tarot - contrats</h3><p>Petite, Garde, Garde sans, Garde contre : ce que chaque annonce change au chien et au score.</p></div>
+</article>
+<article class="carte">
+<img src="images/jeu-de-tarot-calcul-des-points.webp" width="1024" height="460" loading="lazy" alt="Jeu de tarot - points : feuille de marque en fin de manche">
+<div class="corps"><h3>Jeu de tarot - points</h3><p>Seuils selon les Bouts, écart, multiplicateur, primes : le calcul d'une donne expliqué avec un exemple.</p></div>
+</article>
+<article class="carte">
+<img src="images/jeu-de-tarot-garde-a-cinq-joueurs.webp" width="1600" height="720" loading="lazy" alt="Jeu de tarot - 5 joueurs : une Garde avec appel du roi">
+<div class="corps"><h3>Jeu de tarot - à 5 joueurs</h3><p>L'appel du roi, le partenaire secret et la répartition des points quand la table est complète.</p></div>
+</article>
+<article class="carte">
+<img src="images/jeu-de-tarot-application-menu.webp" width="1600" height="720" loading="lazy" alt="Jeu de tarot - application : menu principal hors ligne et en ligne">
+<div class="corps"><h3>Jeu de tarot - application</h3><p>Votre jeu de tarot hors ligne contre l'IA ou en ligne contre de vrais joueurs, avec un tutoriel pour la première donne.</p></div>
+</article>
+<article class="carte">
+<img src="images/jeu-de-tarot-tournoi-du-week-end.webp" width="1024" height="460" loading="lazy" alt="Jeu de tarot - en ligne : écran du tournoi du week-end">
+<div class="corps"><h3>Jeu de tarot - en ligne</h3><p>Tables publiques, salon privé entre amis et tournoi du week-end avec classement.</p></div>
+</article>
+<article class="carte">
+<img src="images/jeu-de-tarot-faucheuse-table-gothique.webp" width="1920" height="1080" loading="lazy" alt="Jeu de tarot - mobile : ambiance gothique sur smartphone et tablette">
+<div class="corps"><h3>Jeu de tarot - mobile</h3><p>Un jeu de tarot pensé pour le pouce, en portrait comme en paysage, sur téléphone et tablette.</p></div>
+</article>
+</div>
+</section>
+
+<section id="regles">
+<h2>Les règles du jeu de tarot en cinq étapes</h2>
+<p>Une donne de jeu de tarot suit toujours le même fil. Une fois ces cinq étapes du jeu de tarot comprises, le reste devient une affaire de pratique.</p>
+<ol>
+<li><strong>La distribution.</strong> Dans le jeu de tarot, tout dépend du nombre de joueurs. À 4 joueurs, chacun reçoit 18 cartes et 6 cartes forment le chien. À 3 joueurs, chacun en reçoit 24 et le chien compte aussi 6 cartes. À 5 joueurs, chacun en reçoit 15 et le chien n'en garde que 3.</li>
+<li><strong>Les enchères.</strong> C'est le moment clé du jeu de tarot : chacun passe ou annonce un contrat plus fort que le précédent. Le joueur qui fait l'enchère la plus haute devient le preneur ; les autres forment la défense.</li>
+<li><strong>Le chien et l'écart.</strong> Sur une Petite ou une Garde, le preneur retourne le chien, l'ajoute à sa main puis écarte le même nombre de cartes. Sur une Garde sans ou une Garde contre, le chien reste face cachée.</li>
+<li><strong>Le jeu de la carte.</strong> Comme dans tout jeu de tarot, il faut fournir la couleur demandée. Faute de quoi on coupe avec un atout, et on monte sur l'atout le plus fort déjà posé si on le peut.</li>
+<li><strong>Le décompte.</strong> On compte les points des plis du preneur et on les compare au seuil fixé par le nombre de Bouts qu'il a remportés.</li>
+</ol>
+<figure>
+<img src="images/jeu-de-tarot-plis-et-atouts.webp" width="1024" height="460" loading="lazy" alt="Jeu de tarot : plis et atouts joués pendant une donne">
+<figcaption>Jeu de tarot : pendant le jeu de la carte, l'atout le plus fort remporte le pli.</figcaption>
+</figure>
+<div class="encadre">
+<p><strong>Deux règles maison dans Tarot Gothique.</strong> L'Excuse revient toujours au joueur qui l'a posée, sans échange contre une petite carte. Et à 5 joueurs, la couleur du roi appelé ne peut pas être jouée au premier pli, sauf si celui qui entame pose directement ce roi. Ces choix sont assumés : ils sont expliqués avant la première donne, pour que chacun connaisse la version du jeu de tarot à laquelle il joue.</p>
+</div>
+</section>
+
+<section id="cartes">
+<h2>Les cartes du jeu de tarot et leur valeur</h2>
+<p>Un jeu de tarot compte 78 cartes : 56 cartes de couleur (cœur, carreau, trèfle, pique, avec quatre figures chacune), 21 atouts numérotés et l'Excuse. Dans le jeu de tarot, trois cartes ont un rôle à part : le Petit (l'atout 1), le 21 d'atout et l'Excuse. On les appelle les Bouts, et ce sont elles qui fixent la difficulté du contrat.</p>
+<table>
+<thead><tr><th>Carte</th><th>Valeur</th></tr></thead>
+<tbody>
+<tr><td>Chaque Bout (Petit, 21, Excuse)</td><td>4,5 points</td></tr>
+<tr><td>Roi</td><td>4,5 points</td></tr>
+<tr><td>Dame</td><td>3,5 points</td></tr>
+<tr><td>Cavalier</td><td>2,5 points</td></tr>
+<tr><td>Valet</td><td>1,5 point</td></tr>
+<tr><td>Toute autre carte</td><td>0,5 point</td></tr>
+</tbody>
+</table>
+<p>Au total, les 78 cartes du jeu de tarot valent 91 points. C'est pourquoi le preneur qui n'a aucun Bout doit en réunir 56, soit nettement plus de la moitié.</p>
+</section>
+
+<section id="contrats">
+<h2>Les contrats du jeu de tarot</h2>
+<p>Au jeu de tarot, le contrat annoncé pendant les enchères fixe deux choses : ce que devient le chien, et par combien on multiplie le résultat de la donne. Plus l'annonce est haute, plus le gain est fort… et plus la chute coûte cher. Bien choisir son contrat est sans doute la compétence la plus utile du jeu de tarot.</p>
+<table>
+<thead><tr><th>Contrat</th><th>Le chien</th><th>Multiplicateur</th></tr></thead>
+<tbody>
+<tr><td>Petite</td><td>Retourné, pris par le preneur</td><td>× 1</td></tr>
+<tr><td>Garde</td><td>Retourné, pris par le preneur</td><td>× 2</td></tr>
+<tr><td>Garde sans</td><td>Non retourné, compté pour le preneur</td><td>× 4</td></tr>
+<tr><td>Garde contre</td><td>Non retourné, compté pour la défense</td><td>× 6</td></tr>
+</tbody>
+</table>
+<h3>Le jeu de tarot à 5 joueurs et l'appel du roi</h3>
+<p>À cinq, le preneur ne joue pas seul : après les enchères, il appelle un roi. Celui qui détient ce roi devient son partenaire, sans le dire. Personne ne connaît les équipes avant que le roi soit joué : c'est ce qui rend le jeu de tarot à cinq si passionnant dès les premiers plis. Si le preneur détient lui-même le roi qu'il appelle, il joue seul contre quatre.</p>
+</section>
+
+<section id="points">
+<h2>Compter les points d'une donne de jeu de tarot</h2>
+<p>À la fin d'une donne de jeu de tarot, le preneur additionne les points de ses plis, écart compris (et ceux de son partenaire à 5 joueurs). Il compare ce total au seuil fixé par ses Bouts : 56 points sans Bout, 51 avec un, 41 avec deux et 36 avec les trois. La différence entre son total et le seuil s'appelle l'écart.</p>
+<p>La donne vaut alors <strong>(25 + écart) × multiplicateur du contrat</strong>. Le Petit au bout ajoute 10 points avant la multiplication pour le camp qui remporte le dernier pli avec le Petit.</p>
+<div class="encadre">
+<p><strong>Exemple à 4 joueurs.</strong> Le preneur annonce une Garde, remporte 2 Bouts et totalise 47 points. Avec deux Bouts, il lui en fallait 41 : l'écart est de 6. La donne vaut (25 + 6) × 2 = 62 points. Chaque défenseur perd 62 points et le preneur en gagne 186.</p>
+</div>
+<h3>Poignées et chelem</h3>
+<p>Au jeu de tarot, un joueur riche en atouts peut les montrer avant de jouer sa première carte : c'est la poignée. Il en faut 10 pour une simple à 4 joueurs (13 pour une double, 15 pour une triple), 13, 15 et 18 à 3 joueurs, 8, 10 et 13 à 5 joueurs, l'Excuse comptant comme un atout. La prime vaut 20, 30 ou 40 points, n'est pas multipliée et revient au camp qui gagne la donne. Le chelem, enfin, consiste à remporter tous les plis : 400 points s'il est annoncé et réussi, 200 s'il est réalisé sans annonce, et 200 points de pénalité s'il est annoncé puis manqué.</p>
+<figure>
+<img src="images/jeu-de-tarot-calcul-des-points.webp" width="1024" height="460" loading="lazy" alt="Jeu de tarot : tableau des scores calculé automatiquement en fin de manche">
+<figcaption>Dans ce jeu de tarot, la feuille de marque fait le calcul à votre place à la fin de chaque donne.</figcaption>
+</figure>
+</section>
+
+<section id="conseils">
+<h2>Trois conseils pour progresser au jeu de tarot</h2>
+<ul>
+<li><strong>Comptez les atouts.</strong> Le jeu de tarot en contient 21. Savoir combien sont déjà tombés vous dit si votre petit atout est en danger ou s'il peut mener le Petit au bout.</li>
+<li><strong>Ne prenez pas sur un coup de cœur.</strong> Un Bout, quelques gros atouts et une coupe franche valent mieux que trois rois isolés.</li>
+<li><strong>En défense, chargez les plis de vos partenaires.</strong> Quand un défenseur est sûr de remporter le pli, donnez-lui vos figures plutôt que de les laisser au preneur.</li>
+</ul>
+<p>Le plus efficace reste de jouer souvent au jeu de tarot. Le jeu de tarot en solo contre l'IA permet d'enchaîner les donnes sans attendre personne et d'essayer des prises risquées sans conséquence.</p>
+</section>
+
+<section id="telecharger" class="plateformes">
+<h2>Jouer au jeu de tarot sur la plateforme de votre choix</h2>
+<p>Tarot Gothique 2026 propose le même jeu de tarot partout. Votre jeu de tarot et vos progrès suivent votre compte d'un appareil à l'autre.</p>
+<div class="grille">
+<article class="carte"><div class="corps"><h3>Navigateur</h3><p>Le jeu de tarot sans téléchargement ni inscription pour jouer contre l'IA. Gratuit.</p><a class="btn" href="https://tarot-gothique-2026.com/jouer/">Jouer en ligne</a></div></article>
+<article class="carte"><div class="corps"><h3>Android</h3><p>L'application de jeu de tarot pour smartphone et tablette, publiée sur Google Play. Sa sortie publique est en cours de validation.</p><a class="btn" href="https://play.google.com/store/apps/details?id=com.clea.tarot">Voir sur Google Play</a></div></article>
+<article class="carte"><div class="corps"><h3>Linux</h3><p>Une archive à décompresser, prête à lancer sur la plupart des distributions. Gratuit.</p><a class="btn" href="https://tarot-gothique-2026.com/linux.html">Télécharger pour Linux</a></div></article>
+<article class="carte"><div class="corps"><h3>Windows</h3><p>L'édition complète du jeu de tarot pour PC : 9,90 € en paiement unique, sans abonnement.</p><a class="btn" href="https://tarot-gothique-2026.com/windows.html">Voir l'édition Windows</a></div></article>
+</div>
+<div class="encadre">
+<p><strong>Offres du moment.</strong> L'édition Windows inclut 100 000 jetons pour le mode en ligne. Sur toutes les plateformes, un bonus quotidien vous attend à chaque connexion. Les annonces de tournois de jeu de tarot et les nouveautés sont publiées en premier sur notre <a href="https://discord.gg/PAgE8Y3MSN">serveur Discord</a>, où vous pouvez aussi trouver des partenaires de jeu et signaler un bug.</p>
+</div>
+</section>
+
+<section id="faq">
+<h2>Questions fréquentes sur le jeu de tarot</h2>
+<details><summary>Le jeu de tarot est-il gratuit ?</summary><p>Oui. La version navigateur et la version Linux sont gratuites. L'édition Windows coûte 9,90 € en paiement unique. La boutique intégrée ne vend que des éléments décoratifs (dos de cartes, tapis) : elle ne donne aucun avantage en partie.</p></details>
+<details><summary>Combien de joueurs faut-il pour un jeu de tarot ?</summary><p>Une partie de jeu de tarot se joue à 3, 4 ou 5 joueurs. Si vous êtes moins nombreux, l'IA complète la table.</p></details>
+<details><summary>Combien de points faut-il pour gagner au tarot ?</summary><p>Le preneur doit réunir 56 points sans Bout, 51 avec un Bout, 41 avec deux Bouts et 36 avec les trois Bouts.</p></details>
+<details><summary>Peut-on jouer au tarot entre amis à distance ?</summary><p>Oui : dans le jeu de tarot en ligne, un salon privé permet de créer une table et d'y inviter ses amis avec un code.</p></details>
+<details><summary>Les illustrations sont-elles faites à la main ?</summary><p>Les illustrations de ce jeu de tarot ont été réalisées avec l'aide d'outils d'intelligence artificielle, puis retravaillées pour l'ambiance gothique.</p></details>
+</section>
+</main>
+
+<footer>
+<p>© 2026 Tarot Gothique (Cyril Darbost) · <a href="https://tarot-gothique-2026.com/">Site principal</a> · <a href="https://tarot-gothique-2026.com/regles.html">Règles détaillées</a> · <a href="https://tarot-gothique-2026.com/privacy.html">Confidentialité</a> · <a href="https://discord.gg/PAgE8Y3MSN">Discord</a></p>
+</footer>
+</body>
+</html>

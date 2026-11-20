@@ -1,2 +1,3 @@
 # jeu-de-tarot
-Site jeu de tarot - tarot-gothique-2026.fr
+
+Site statique de https://tarot-gothique-2026.fr (GitHub Pages).
